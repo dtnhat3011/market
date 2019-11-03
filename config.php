@@ -1,15 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://market.com/');
+define('HTTP_SERVER', 'http://ketnoicho.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://market.com/');
+define('HTTPS_SERVER', 'https://ketnoicho.com/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/market/catalog/');
-define('DIR_SYSTEM', 'C:/xampp/htdocs/market/system/');
-define('DIR_IMAGE', 'C:/xampp/htdocs/market/image/');
-define('DIR_STORAGE', 'C:/xampp/htdocs/storage/');
+define('DIR_APPLICATION', '/home/market/catalog/');
+define('DIR_SYSTEM', '/home/market/system/');
+define('DIR_IMAGE', '/home/market/image/');
+define('DIR_STORAGE', '/home/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -23,8 +23,8 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'market');
+define('DB_USERNAME', 'nhatdt');
+define('DB_PASSWORD', '5j%(]6Tm');
+define('DB_DATABASE', 'ketnoicho');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
